@@ -26,13 +26,13 @@ function setup() {
   masterList = m.getList();
   createCanvas(WIDTH, HEIGHT);
 
-  input = createInput();
-  input.position(20, 65);
+  // input = createInput();
+  // input.position(20, 65);
 
-  print(input)
+  // print(input)
 
-  button = createButton('submit');
-  button.position(input.x + input.width, 65);
+  // button = createButton('submit');
+  // button.position(input.x + input.width, 65);
 
 
 }

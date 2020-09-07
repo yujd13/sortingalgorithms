@@ -25,22 +25,22 @@ function setup() {
 
   m = new MergeSort();
   m.sort(a);
-  print(a);
+  // print(a);
   masterList = m.getList();
   createCanvas(WIDTH, HEIGHT);
 
-  input = createInput();
-  input.position(20, 65);
+  // input = createInput();
+  // input.position(20, 65);
 
-  button = createButton('submit');
-  button.position(input.x + input.width, 65);
-  button.mousePressed(setSize);
+  // button = createButton('submit');
+  // button.position(input.x + input.width, 65);
+  // button.mousePressed(setSize);
 
-  greeting = createElement('h2', 'Size');
-  greeting.position(20, 5);
-  greeting.html('List Size');
-  textAlign(CENTER);
-  textSize(50);
+  // greeting = createElement('h2', 'Size');
+  // greeting.position(20, 5);
+  // greeting.html('List Size');
+  // textAlign(CENTER);
+  // textSize(50);
 
 }
 
